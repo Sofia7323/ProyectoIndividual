@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('https://whispering-tundra-94459.herokuapp.com/about/', (req, res) => {
   res.render('index');
 });
 
