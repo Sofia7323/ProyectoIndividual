@@ -12,7 +12,7 @@ require('./database');
 require('./config/passport');
 
 // settings
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || https://quiet-fortress-14444.herokuapp.com/);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
   defaultLayout: 'main',
